@@ -13,6 +13,17 @@ body {
 
 }
 
+.nav-link.active a:hover {
+    text-decoration: none;
+    color: var(--branding-color);
+    transition: all 100ms ease-in-out;
+
+}
+
+.nav-link a:hover{
+    color: var(--branding-color);
+}
+
 h1, h3, h2,  h4, h5, h6 {
     text-align: center;
     color: var(--branding-color);
