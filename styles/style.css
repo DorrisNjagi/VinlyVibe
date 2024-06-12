@@ -131,13 +131,13 @@ img {
     font-family: var(--default-font-family);
 
 }
-nav a {
+.nav-link a {
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
   }
   
-  nav a:hover,
-  nav li.active a {
+  .nav-link a:hover,
+  .nav-link li.active a {
     color: var(--branding-color);
   }
